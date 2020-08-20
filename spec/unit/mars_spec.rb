@@ -13,5 +13,8 @@ describe Mars do
     it 'initializes with the size of the playeau' do
         @mars = Mars.new(3, 3)
         expect(@mars.upper_x_axis).to equal(3)
+        expect(@mars.upper_y_axis).to equal(3)
     end
+
+    
 end
