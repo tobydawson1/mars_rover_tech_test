@@ -2,7 +2,7 @@
 
 **Technologies: Ruby, RSpec**
 
-[Task](#Task) | [Acceptance Criteria](#criteria) | [Input](#Input) | [User Stories](#stories) | [Inputs / Outputs](#output)|
+[Task](#Task) | [Acceptance Criteria](#criteria) | [Input](#Input) | [Inputs / Outputs](#output)| [User Stories](#stories) |
 
 ## Task
 
