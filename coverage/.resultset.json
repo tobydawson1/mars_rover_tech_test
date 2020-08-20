@@ -24,11 +24,11 @@
           1,
           null,
           1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          2,
+          2,
+          2,
+          2,
+          2,
           null,
           null,
           null
@@ -71,8 +71,34 @@
           null,
           null
         ]
+      },
+      "/Users/tobydawson/Projects/mars_rover_tech_test/spec/unit/rover_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/tobydawson/Projects/mars_rover_tech_test/lib/rover.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1597931543
+    "timestamp": 1597932311
   }
 }
