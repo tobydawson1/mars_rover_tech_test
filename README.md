@@ -42,3 +42,35 @@ Each rover will be finished sequentially, which means that the second rover won'
 | 3 3 E                           |                                                               |
 | RMMLMMRM                      |                                                               |
 | ------------------------------- | ------------------------------------------------------------  | 
+| 10 10                             | 5 3 N                                                         |
+| 5 2 W                           |   10 10 E                                                        |
+| MMLMLMMMLM                       |                                                               |
+| 7 7 N                           |                                                               |
+| MRMMLMMRM                      |                                                               |
+| ------------------------------- | ------------------------------------------------------------  | 
+
+## User Stories
+
+```
+As a NASA Engineer
+So I can map the plateau
+I would like to be able to input the upper right coordinates of the plateau
+```
+
+```
+As a NASA Engineer
+So I can move the rover
+I would like to be able to input the starting coordinates of the rover and the desired movement pattern
+```
+
+```
+As a NASA Engineer 
+So I can use two rovers
+I would like to be able to input data for two rovers, one after the other
+```
+
+```
+As a Nasa Engineer 
+So I know where the rovers finish
+I would like the final coordinates of both rovers to be outputed
+```
