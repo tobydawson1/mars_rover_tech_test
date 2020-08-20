@@ -1,5 +1,7 @@
 # mars_rover_tech_test
 
+**Technologies: Ruby, RSpec**
+
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars.
 This plateau, which is curiously rectangular, must be navigated by the rovers so that their on board cameras can get a complete view of the
 surrounding terrain to send back to Earth.
@@ -74,3 +76,6 @@ As a Nasa Engineer
 So I know where the rovers finish
 I would like the final coordinates of both rovers to be outputed
 ```
+
+
+
