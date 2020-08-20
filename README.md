@@ -1,6 +1,10 @@
-# mars_rover_tech_test
+# Mars Rover
 
 **Technologies: Ruby, RSpec**
+
+[Task](#Task) | [Acceptance Criteria](#criteria) | [Input](#Input) | [User Stories](#stories) | [Inputs / Outputs](#output)|
+
+## Task
 
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars.
 This plateau, which is curiously rectangular, must be navigated by the rovers so that their on board cameras can get a complete view of the
@@ -13,7 +17,7 @@ degrees left or right respectively, without moving from its current spot.
 'M' means move forward one grid point, and maintain the same heading.
 Assume that the square directly North from (x, y) is (x, y+1).
 
-## Acceptance Criteria
+## <a name="criteria">Acceptance Criteria </a>
 
 The problem below requires some kind of input. You are free to implement any mechanism for feeding input into your solution (for example, using
 hard coded data within a unit test). You should provide sufficient evidence that your solution is complete by, as a minimum, indicating that it works
@@ -28,8 +32,7 @@ rover's position, and the second line is a series of instructions telling the ro
 The position is made up of two integers and a letter separated by spaces, corresponding to the x and y co-ordinates and the rover's orientation.
 Each rover will be finished sequentially, which means that the second rover won't start to move until the first one has finished moving.
 
-## Inputs / Outputs
-
+## <a name="output">Input / Output </a>
 | Input                           | Output                                                        | 
 | ------------------------------- | ------------------------------------------------------------  | 
 | 5 5                             | 1 3 N                                                         |
@@ -51,7 +54,7 @@ Each rover will be finished sequentially, which means that the second rover won'
 | MRMMLMMRM                      |                                                               |
 | ------------------------------- | ------------------------------------------------------------  | 
 
-## User Stories
+## <a name="stories">User Stories</a>
 
 ```
 As a NASA Engineer
