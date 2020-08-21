@@ -10,4 +10,5 @@ class Command
         @movement_two = movement_two
     end
 
+
 end
