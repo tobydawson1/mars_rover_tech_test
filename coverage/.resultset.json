@@ -1,45 +1,6 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/tobydawson/Projects/mars_rover_tech_test/spec/unit/command_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          1,
-          4,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
       "/Users/tobydawson/Projects/mars_rover_tech_test/lib/command.rb": {
         "lines": [
           1,
@@ -63,37 +24,6 @@
           null,
           null,
           1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/tobydawson/Projects/mars_rover_tech_test/spec/unit/mars_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          1,
-          3,
-          3,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
           1,
           1,
           1,
@@ -134,27 +64,6 @@
           2,
           null,
           null,
-          null,
-          null
-        ]
-      },
-      "/Users/tobydawson/Projects/mars_rover_tech_test/spec/unit/movement_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
           null
         ]
       },
@@ -171,29 +80,6 @@
           1,
           2,
           2,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/tobydawson/Projects/mars_rover_tech_test/spec/unit/rover_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          1,
-          2,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
           null,
           null,
           null
@@ -218,6 +104,6 @@
         ]
       }
     },
-    "timestamp": 1598010343
+    "timestamp": 1598012015
   }
 }
