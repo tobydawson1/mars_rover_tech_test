@@ -34,6 +34,7 @@ GEM
     simplecov (0.19.0)
       docile (~> 1.1)
       simplecov-html (~> 0.11)
+    simplecov-badge (2.0.2)
     simplecov-console (0.7.2)
       ansi
       simplecov
@@ -50,6 +51,7 @@ DEPENDENCIES
   rspec
   rubocop (= 0.71.0)
   simplecov
+  simplecov-badge
   simplecov-console
 
 BUNDLED WITH
