@@ -3,8 +3,8 @@ global:
 - CC_TEST_REPORTER_ID="d7ee54db746b865d195769888cc0920e6f43d9ed0296e469f9d4f0ebe2e8a762"
 language: ruby
 rvm:
-- 2.5.0
-before_install: gem install bundler -v 1.16.1
+- 2.6.3
+before_install: gem install bundler
 notifications:
 - false
 before_script:
