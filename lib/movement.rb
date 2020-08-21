@@ -10,5 +10,6 @@ class Movement
     @movement_one = @command.movement_one.split("") 
     @movement_two = @command.movement_two.split("") 
   end
+  
 
 end
