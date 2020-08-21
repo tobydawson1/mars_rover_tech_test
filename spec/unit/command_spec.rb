@@ -14,4 +14,16 @@ require 'command'
             expect(@command.movement_two).to eq("MMRMMRMRRM")
         end
 
+        it 'can call the grid size' do
+            @command.mars
+            expect(@command.y).to eq(0..5)
+            expect(@command.x).to eq(0..5)
+        end
+
+        it 'has usable rover data' do
+            @command.rover_cordinates
+            expect(@command.rover_one).to eq(["1", "2", "N"])
+            expect(@command.rover_two).to eq(["3", "3", "E"])
+        end
+
     end
