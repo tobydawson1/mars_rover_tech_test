@@ -26,4 +26,10 @@ require 'command'
             expect(@command.rover_two).to eq(["3", "3", "E"])
         end
 
+        it 'has usable movement data' do
+            @command.rover_movements
+            expect(@command.movement_one).to eq(["L", "M", "L", "M", "L", "M", "L", "M", "M"])
+            expect(@command.movement_two).to eq(["M", "M", "R", "M", "M", "R", "M", "R", "R", "M"])
+        end
+
     end

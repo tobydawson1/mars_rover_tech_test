@@ -25,4 +25,11 @@ class Command
         @rover_two = @rover.rover_two
     end
 
+    def rover_movements
+        @movement = Movement.new(@movement_one, @movement_two)
+        @movement.movement_accessability
+        @movement_one = @movement.movement_one
+        @movement_two = @movement.movement_two
+    end
+
 end
