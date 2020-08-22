@@ -4,6 +4,7 @@ class Movement
 
   def initialize(movement_one, movement_two)
     @command = Command.new(nil, nil, movement_one, nil, movement_two)
+    movement_accessability
   end
 
   def movement_accessability
@@ -11,5 +12,6 @@ class Movement
     @movement_two = @command.movement_two.split("") 
   end
   
+
 
 end

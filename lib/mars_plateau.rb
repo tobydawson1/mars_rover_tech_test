@@ -5,6 +5,8 @@ class Mars
   def initialize(grid_size)
     @command = Command.new(grid_size, start_one, movement_one, start_two, movement_two)
     @grid_size = grid_size
+    grid
+    plateau
   end
 
   def grid

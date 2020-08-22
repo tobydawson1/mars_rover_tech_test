@@ -4,6 +4,7 @@ class Rover
 
   def initialize(start_one, start_two)
     @command = Command.new(nil, start_one, nil, start_two, nil)
+    rover_location
   end
 
   def rover_location

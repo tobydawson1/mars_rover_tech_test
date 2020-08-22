@@ -12,22 +12,18 @@ class Command
 
   def mars
     @mars = Mars.new(grid_size)
-    @mars.grid
-    @mars.plateau
     @y = @mars.y
     @x = @mars.x
   end
 
   def rover_cordinates
     @rover = Rover.new(@start_one, @start_two)
-    @rover.rover_location
     @rover_one = @rover.rover_one
     @rover_two = @rover.rover_two
   end
 
   def rover_movements
     @movement = Movement.new(@movement_one, @movement_two)
-    @movement.movement_accessability
     @movement_one = @movement.movement_one
     @movement_two = @movement.movement_two
   end
