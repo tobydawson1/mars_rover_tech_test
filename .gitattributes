@@ -1,1 +1,2 @@
 *.html linguist-detectable=false
+*.ruby linguist-detectable=true 
