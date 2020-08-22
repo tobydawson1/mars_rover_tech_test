@@ -4,7 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/tobydawson1/mars_rover_tech_test/badge.svg?branch=master)](https://coveralls.io/github/tobydawson1/mars_rover_tech_test?branch=master)
 [![Build Status](https://travis-ci.com/tobydawson1/mars_rover_tech_test.svg?branch=master)](https://travis-ci.com/tobydawson1/mars_rover_tech_test)
 
-**Technologies: Ruby, RSpec**
+**Technologies: Ruby, RSpec, Rubocop, Coveralls, Travis CI**
 
 [Task](#Task) | [Acceptance Criteria](#criteria) | [Input](#Input) | [Inputs / Outputs](#output)| [User Stories](#stories) |
 
