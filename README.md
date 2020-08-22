@@ -2,6 +2,7 @@
 
 <a href="https://codeclimate.com/github/tobydawson1/mars_rover_tech_test/maintainability"><img src="https://api.codeclimate.com/v1/badges/012b796d7c476a606b67/maintainability" /></a>
 [![Coverage Status](https://coveralls.io/repos/github/tobydawson1/mars_rover_tech_test/badge.svg?branch=master)](https://coveralls.io/github/tobydawson1/mars_rover_tech_test?branch=master)
+[![Build Status](https://travis-ci.com/tobydawson1/mars_rover_tech_test.svg?branch=master)](https://travis-ci.com/tobydawson1/mars_rover_tech_test)
 
 **Technologies: Ruby, RSpec**
 
