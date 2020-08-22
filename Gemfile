@@ -8,6 +8,6 @@ gem 'rspec'
 gem 'rubocop', '0.71.0'
 gem 'simplecov', require: false
 gem 'simplecov-console', require: false
-gem 'coveralls', require: false
+gem "coveralls", "~>0.8.23", :require => false
 gem 'travis'    
 gem 'rake'
