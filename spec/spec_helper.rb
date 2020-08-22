@@ -3,15 +3,7 @@ Coveralls.wear!
 require 'simplecov'
 require 'fileutils'
 
-module SimpleCov::Configuration
-  def clean_filters
-    @filters = []
-  end
-end
 
-SimpleCov.configure do
-  clean_filters
-end
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   SimpleCov::Formatter::HTMLFormatter,
