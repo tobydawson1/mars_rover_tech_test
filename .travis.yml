@@ -1,3 +1,6 @@
 language: ruby
-sudo: false
-dist: trusty
+rvm:
+- 2.6.3
+- 1.9.3
+- jruby-19mode
+- rbx-2
