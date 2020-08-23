@@ -25,6 +25,4 @@ describe Command do
     expect(@command.face).to eq("N")
   end
 
-  
-
 end

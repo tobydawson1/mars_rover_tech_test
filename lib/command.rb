@@ -47,5 +47,12 @@ class Command
 
   end
 
+ def turn_left(step = 1)
+    face_to('+', step)
+  end
+
+  def turn_right(step = 1)
+    face_to('+', step)
+  end
 
 end
