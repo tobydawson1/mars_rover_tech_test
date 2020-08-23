@@ -1,6 +1,6 @@
 class Nasa
 
-    attr_reader :movement_one, :movement_two, :rover_one, :rover_two, :face
+  attr_reader :movement_one, :movement_two, :rover_one, :rover_two, :face
 
   def initialize(grid_size, start_one, movement_one, start_two, movement_two)
     @rover_one = Command.new(grid_size, start_one, movement_one)

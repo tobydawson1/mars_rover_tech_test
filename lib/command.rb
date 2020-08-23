@@ -38,7 +38,7 @@ class Command
 
   def move_forward
     case @face
-    when 'N'
+    when 'N' 
       @y += 1
     when 'S'
       @y -= 1
@@ -47,14 +47,12 @@ class Command
     when 'W'
       @x -= 1
     end
-
     raise OutOfBound, 'Rover out in space' if limit?
 
     [@y, @x]
-
   end
 
- def turn_left(step = 1)
+  def turn_left(step = 1)
     face_to('+', step)
   end
 
