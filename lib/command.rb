@@ -28,4 +28,17 @@ class Command
     @movement_two = @movement.movement_two
   end
 
+  def face
+    case @face
+    when 'N'
+      @y += 1
+    when 'S'
+      @y -= 1
+    when 'E'
+      @x += 1
+    when 'W'
+      @x -= 1
+    end
+  end
+
 end
