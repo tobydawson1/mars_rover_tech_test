@@ -7,6 +7,7 @@ describe Nasa do
   end
 
   it 'moves rover one' do
-    expect(@nasa.excecution).to eq("1 3 N")
+    expect(@nasa.mission_one).to eq("1 3 N")
+    expect(@nasa.mission_two).to eq("5 1 E")
   end
 end
