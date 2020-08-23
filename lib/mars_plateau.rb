@@ -1,25 +1,20 @@
 class Mars
 
-  attr_reader :upper_x_axis, :upper_y_axis, :grid_size, :start_one, :movement_one, :start_two, :movement_two, :y, :x
+  attr_reader :max_x, :max_y, :grid_size, :start_one, :movement_one, :start_two, :movement_two
 
   def initialize(grid_size)
     @command = Command.new(grid_size, start_one, movement_one, start_two, movement_two)
     @grid_size = grid_size
     grid
-    plateau
   end
 
   def grid
     @grid_size = @grid_size.split(" ")
-    @upper_x_axis = @grid_size[0]
-    @upper_y_axis = @grid_size[1]
+    @max_x = @grid_size[0].to_i
+    @max_y = @grid_size[1].to_i
+    @min_x = 0
+    @min_y = 0
   end
 
-  def plateau 
-    @x = @upper_x_axis.to_i
-    @y = @upper_y_axis.to_i
-    @x = (0..@x) 
-    @y = (0..@y)
-  end
   
 end

@@ -12,13 +12,8 @@ describe Mars do
   end
 
   it 'holds the size of the playeau' do
-    expect(@mars.upper_x_axis).to eq("5")
-    expect(@mars.upper_y_axis).to eq("5")
-  end
-
-  it 'can assign grid size to variables' do
-    expect(@mars.x).to eq(0..5)
-    expect(@mars.y).to eq(0..5)
+    expect(@mars.max_x).to eq(5)
+    expect(@mars.max_y).to eq(5)
   end
 
 end

@@ -16,8 +16,8 @@ describe Command do
 
   it 'can call the grid size' do
     @command.mars
-    expect(@command.y).to eq(0..5)
-    expect(@command.x).to eq(0..5)
+    expect(@command.max_y).to eq(5)
+    expect(@command.max_x).to eq(5)
   end
 
   it 'has usable rover data' do
@@ -26,10 +26,10 @@ describe Command do
     expect(@command.rover_two).to eq(["3", "3", "E"])
   end
 
-  it 'has usable movement data' do
-    @command.rover_movements
-    expect(@command.movement_one).to eq(["L", "M", "L", "M", "L", "M", "L", "M", "M"])
-    expect(@command.movement_two).to eq(["M", "M", "R", "M", "M", "R", "M", "R", "R", "M"])
+
+  it 'coverts movement into left, right, forward' do
+   @command.process("LMLMLMLMM")
+   
   end
 
 end
