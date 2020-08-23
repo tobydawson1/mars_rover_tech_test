@@ -1,8 +1,10 @@
 class Command
 
-  attr_reader :grid_size, :start, :movement, :y, :x, :face, :max_x, :max_y
+  attr_reader :grid_size, :start, :movement, :y, :x, :face, :max_x, :max_y, :final_postion
 
   def initialize(grid_size, start, movement)
+    @x = 0
+    @y = 0
     @grid_size = grid_size
     @start = start
     @movement = movement
@@ -31,6 +33,7 @@ class Command
       when 'M' then move_forward
       end
     end
+    @final_postion = [@x, @y, @face].join(' ')
   end
 
   def move_forward
@@ -45,6 +48,10 @@ class Command
       @x -= 1
     end
 
+    raise OutOfBound, 'Rover out in space' if limit?
+
+    [@y, @x]
+
   end
 
  def turn_left(step = 1)
@@ -58,6 +65,13 @@ class Command
   def face_to(operator, step)
     idx = @directions.index(@face).method(operator).call(step) % 4
     @face = @directions[idx]
+  end
+
+  def limit?
+    @x > @max_x || @y > @max_y
+  end
+
+  class OutOfBound < StandardError
   end
 
 end

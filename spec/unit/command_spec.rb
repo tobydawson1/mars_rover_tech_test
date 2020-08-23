@@ -26,11 +26,13 @@ describe Command do
   end
 
   it 'converts movement into left, right, forward' do
+    @command.mars
     @command.rover_cordinates
     @command.process("LMLMLMLMM")
     expect(@command.face).to eq("N")
     expect(@command.x).to eq(1)
     expect(@command.y).to eq(3)
+    expect(@command.final_postion).to eq("1 3 N")
   end
 
 end
@@ -42,11 +44,13 @@ describe Command do
   end
 
   it 'converts movement into left, right, forward' do
+    @command.mars
     @command.rover_cordinates
     @command.process("MMRMMRMRRM")
     expect(@command.face).to eq("E")
     expect(@command.x).to eq(5)
     expect(@command.y).to eq(1)
+    expect(@command.final_postion).to eq("5 1 E")
   end
 
 end

@@ -12,8 +12,6 @@ class Mars
     @grid_size = @grid_size.split(" ")
     @max_x = @grid_size[0].to_i
     @max_y = @grid_size[1].to_i
-    @min_x = 0
-    @min_y = 0
   end
 
   
