@@ -25,4 +25,28 @@ describe Command do
     expect(@command.face).to eq("N")
   end
 
+  it 'converts movement into left, right, forward' do
+    @command.rover_cordinates
+    @command.process("LMLMLMLMM")
+    expect(@command.face).to eq("N")
+    expect(@command.x).to eq(1)
+    expect(@command.y).to eq(3)
+  end
+
+end
+
+describe Command do
+
+  before :each do
+    @command = Command.new("5 5", "3 3 E", "MMRMMRMRRM")
+  end
+
+  it 'converts movement into left, right, forward' do
+    @command.rover_cordinates
+    @command.process("MMRMMRMRRM")
+    expect(@command.face).to eq("E")
+    expect(@command.x).to eq(5)
+    expect(@command.y).to eq(1)
+  end
+
 end

@@ -55,4 +55,9 @@ class Command
     face_to('+', step)
   end
 
+  def face_to(operator, step)
+    idx = @directions.index(@face).method(operator).call(step) % 4
+    @face = @directions[idx]
+  end
+
 end
