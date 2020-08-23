@@ -4,7 +4,7 @@ describe Mars do
 
   before :each do
     @mars = Mars.new("5 5")
-    @command = Command.new("5 5", "1 2 N", "LMLMLMLMM", "3 3 E", "MMRMMRMRRM")
+    @command = Command.new("5 5", "1 2 N", "LMLMLMLMM")
   end
 
   it 'can be initiazed' do

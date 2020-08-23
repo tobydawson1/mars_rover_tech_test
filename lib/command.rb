@@ -1,13 +1,12 @@
 class Command
 
-  attr_reader :grid_size, :start_one, :movement_one, :start_two, :movement_two, :y, :x, :rover_one, :rover_two, :max_x, :max_y
+  attr_reader :grid_size, :start, :movement, :y, :x, :face, :max_x, :max_y
 
-  def initialize(grid_size, start_one, movement_one, start_two, movement_two)
+  def initialize(grid_size, start, movement)
     @grid_size = grid_size
-    @start_one = start_one
-    @movement_one = movement_one
-    @start_two = start_two
-    @movement_two = movement_two
+    @start = start
+    @movement = movement
+    @directions = ["N", "E", "S", "W"]
   end
 
   def mars
@@ -17,9 +16,11 @@ class Command
   end
 
   def rover_cordinates
-    @rover = Rover.new(@start_one, @start_two)
-    @rover_one = @rover.rover_one
-    @rover_two = @rover.rover_two
+    @rover = Rover.new(@start)
+    @rover.deploy
+    @x = @rover.x
+    @y = @rover.y
+    @face = @rover.face
   end
 
   def process(commands)
@@ -32,7 +33,7 @@ class Command
     end
   end
 
-  def face
+  def move_forward
     case @face
     when 'N'
       @y += 1
@@ -43,6 +44,8 @@ class Command
     when 'W'
       @x -= 1
     end
+
   end
+
 
 end

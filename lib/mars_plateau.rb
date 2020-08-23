@@ -1,9 +1,9 @@
 class Mars
 
-  attr_reader :max_x, :max_y, :grid_size, :start_one, :movement_one, :start_two, :movement_two
+  attr_reader :max_x, :max_y, :grid_size, :start, :movement
 
   def initialize(grid_size)
-    @command = Command.new(grid_size, start_one, movement_one, start_two, movement_two)
+    @command = Command.new(grid_size, start, movement)
     @grid_size = grid_size
     grid
   end
