@@ -100,7 +100,7 @@ $ rspec
 
 | Object:          | Commmand                                        | 
 | ---------------- | -------------------------------------------------- | 
-| **Properties:**  | Grid size, Start, Movement                              |
+| **Properties:**  | grid size, start, movement                              |
 | **Function:**    | mars                                    |
 | **Function:**    | rover_coordinates                                             |  
 | **Function:**    | process                                    |
@@ -112,7 +112,7 @@ $ rspec
 
 | Object:          | Rover                                     | 
 | ---------------- | -------------------------------------------------- | 
-| **Properties:**  | Start                                                  |
+| **Properties:**  | start                                                  |
 | **Function:**    | rover_location                                 |
 | **Function:**    | deploy                                            |  
 
