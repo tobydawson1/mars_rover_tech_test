@@ -20,8 +20,8 @@ describe Nasa do
   end
 
   it 'gives another set of correct rover positions' do
-    expect(@nasa.mission_one).to eq("6 1 S")
-    expect(@nasa.mission_two).to eq("2 6 N")
+    expect(@nasa.mission_one).to eq("6 3 N")
+    expect(@nasa.mission_two).to eq("6 6 N")
   end
 
 end
