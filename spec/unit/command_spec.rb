@@ -28,29 +28,7 @@ describe Command do
   it 'converts movement into left, right, forward' do
     @command.mars
     @command.rover_cordinates
-    @command.process("LMLMLMLMM")
-    expect(@command.face).to eq("N")
-    expect(@command.x).to eq(1)
-    expect(@command.y).to eq(3)
-    expect(@command.final_postion).to eq("1 3 N")
+    expect { @command.process("LLMMMMMMMMMMM") }.to raise_error("Rover out in space")
   end
-
-end
-
-describe Command do
-
-  before :each do
-    @command = Command.new("5 5", "3 3 E", "MMRMMRMRRM")
-  end
-
-  it 'converts movement into left, right, forward' do
-    @command.mars
-    @command.rover_cordinates
-    @command.process("MMRMMRMRRM")
-    expect(@command.face).to eq("E")
-    expect(@command.x).to eq(5)
-    expect(@command.y).to eq(1)
-    expect(@command.final_postion).to eq("5 1 E")
-  end
-
+  
 end

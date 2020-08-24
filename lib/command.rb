@@ -47,7 +47,7 @@ class Command
     when 'W'
       @x -= 1
     end
-    raise OutOfBound, 'Rover out in space' if limit?
+    fail 'Rover out in space' if limit?
 
     [@y, @x]
   end
@@ -66,10 +66,7 @@ class Command
   end
 
   def limit?
-    @x > @max_x || @y > @max_y
-  end
-
-  class OutOfBound < StandardError
+    @x > @max_x || @y > @max_y || @x < 0 || @y < 0
   end
 
 end
