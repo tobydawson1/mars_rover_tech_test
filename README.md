@@ -6,7 +6,7 @@
 
 **Technologies: Ruby, RSpec, Rubocop, Coveralls, Travis CI**
 
-[Task](#Task) | [Acceptance Criteria](#criteria) | [Input](#Input) | [How to run](#run) | [IRB Output Example](#irb) | [Inputs / Outputs](#output)| [Functions and Methods](#functions) | [User Stories](#stories) |
+[Task](#Task) | [Acceptance Criteria](#criteria) | [Input](#Input) | [How to run](#run) | [Testing](#Testing) | [IRB Output Example](#irb) | [Inputs / Outputs](#output)| [Functions and Methods](#functions) | [User Stories](#stories) |
 
 ## Task
 
@@ -53,6 +53,14 @@ Initialize nasa with input as arguments ($ @nasa = Nasa.new(grid size, start_one
 Actions
   - $ @nasa.mission_one
   - $ @nasa.mission_two
+```
+## Testing 
+
+```
+RSpec is used for testing
+Clone repository onto local machine and cd into it
+
+$ rspec
 ```
 
 ## <a name="irb">IRB Output Example</a>
@@ -137,7 +145,7 @@ I would like to be able to input data for two rovers, one after the other
 ```
 As a Nasa Engineer 
 So I know where the rovers finish
-I would like the final coordinates of both rovers to be outputed
+I would like the final coordinates of both rovers to be outputted
 ```
 
 
