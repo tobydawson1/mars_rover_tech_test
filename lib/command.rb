@@ -66,7 +66,7 @@ class Command
   end
 
   def limit?
-    @x > @max_x || @y > @max_y || @x < 0 || @y < 0
+    @x > @max_x || @y > @max_y || @x.negative? || @y.negative?
   end
 
 end

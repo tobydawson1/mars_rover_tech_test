@@ -25,10 +25,16 @@ describe Command do
     expect(@command.face).to eq("N")
   end
 
-  it 'converts movement into left, right, forward' do
+  it 'raises error when out of bands below 0 ' do
     @command.mars
     @command.rover_cordinates
-    expect { @command.process("LLMMMMMMMMMMM") }.to raise_error("Rover out in space")
+    expect { @command.process("LMMMMMMM") }.to raise_error("Rover out in space")
+  end
+
+  it 'raises error when out of bounds when above max axis' do
+    @command.mars
+    @command.rover_cordinates
+    expect { @command.process("MMMMMMM") }.to raise_error("Rover out in space")
   end
   
 end
