@@ -46,12 +46,12 @@
         1,
         null,
         1,
-        31,
-        31,
-        31,
-        31,
-        31,
-        31,
+        29,
+        29,
+        29,
+        29,
+        29,
+        29,
         null,
         null,
         1,
@@ -241,39 +241,6 @@
         null,
         null
       ],
-      "/Users/tobydawson/Projects/mars_rover_tech_test/spec/unit/movement_spec.rb": [
-        1,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/Users/tobydawson/Projects/mars_rover_tech_test/lib/movement.rb": [
-        1,
-        null,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        2,
-        null,
-        null,
-        null
-      ],
       "/Users/tobydawson/Projects/mars_rover_tech_test/spec/unit/rover_spec.rb": [
         1,
         null,
@@ -320,6 +287,6 @@
         null
       ]
     },
-    "timestamp": 1598260414
+    "timestamp": 1598260641
   }
 }
