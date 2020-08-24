@@ -145,7 +145,7 @@ I would like to be able to input data for two rovers, one after the other
 ```
 As a Nasa Engineer 
 So I know where the rovers finish
-I would like the final coordinates of both rovers to be outputed
+I would like the final coordinates of both rovers to be outputted
 ```
 
 
