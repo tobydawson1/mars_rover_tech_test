@@ -63,6 +63,8 @@ Clone repository onto local machine and cd into it
 $ rspec
 ```
 
+![testing](https://github.com/tobydawson1/mars_rover_tech_test/blob/master/testing.png)
+
 ## <a name="irb">IRB Output Example</a>
 
 ![example](https://github.com/tobydawson1/mars_rover_tech_test/blob/master/example.png)
