@@ -8,7 +8,7 @@ describe Command do
 
   it 'can reveive data, convert it, operate rover and return correct final position' do
     @command.mars
-    @command.rover_cordinates
+    @command.rover_coordinates
     @command.process("LMLMLMLMM")
     expect(@command.face).to eq("N")
     expect(@command.x).to eq(1)
@@ -26,7 +26,7 @@ describe Command do
 
   it 'it can return the correct final destination for the second rover' do
     @command.mars
-    @command.rover_cordinates
+    @command.rover_coordinates
     @command.process("MMRMMRMRRM")
     expect(@command.face).to eq("E")
     expect(@command.x).to eq(5)

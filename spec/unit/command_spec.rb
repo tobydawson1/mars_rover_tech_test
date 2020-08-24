@@ -19,7 +19,7 @@ describe Command do
   end
 
   it 'has usable rover data' do
-    @command.rover_cordinates
+    @command.rover_coordinates
     expect(@command.x).to eq(1)
     expect(@command.y).to eq(2)
     expect(@command.face).to eq("N")
@@ -27,13 +27,13 @@ describe Command do
 
   it 'raises error when out of bands below 0 ' do
     @command.mars
-    @command.rover_cordinates
+    @command.rover_coordinates
     expect { @command.process("LMMMMMMM") }.to raise_error("Rover out in space")
   end
 
   it 'raises error when out of bounds when above max axis' do
     @command.mars
-    @command.rover_cordinates
+    @command.rover_coordinates
     expect { @command.process("MMMMMMM") }.to raise_error("Rover out in space")
   end
   

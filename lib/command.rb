@@ -17,7 +17,7 @@ class Command
     @max_y = @mars.max_y
   end
 
-  def rover_cordinates
+  def rover_coordinates
     @rover = Rover.new(@start)
     @rover.deploy
     @x = @rover.x

@@ -11,14 +11,14 @@ class Nasa
 
   def mission_one
     @rover_one.mars
-    @rover_one.rover_cordinates
+    @rover_one.rover_coordinates
     @rover_one.process(@movement_one)
     @rover_one.final_postion
   end
 
   def mission_two
     @rover_two.mars
-    @rover_two.rover_cordinates
+    @rover_two.rover_coordinates
     @rover_two.process(@movement_two)
     @rover_two.final_postion
   end
