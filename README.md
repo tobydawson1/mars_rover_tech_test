@@ -38,6 +38,23 @@ Each rover will be finished sequentially, which means that the second rover won'
 
 ## <a name="run">How to run </a>
 
+```
+Clone repository onto local machine and cd into it
+
+$ gem install bundle
+$ irb
+$ require 'nasa'
+$ require 'command' 
+$ require 'rover'
+$ require 'mars_plateau'
+
+Initialize nasa with input as arguments ($ @nasa = Nasa.new(grid size, first location, first movement, second location, second movement)
+
+Actions
+  - $ @nasa.mission_one
+  - $ @nasa.mission_two
+```
+
 ## <a name="output">Input / Output </a>
 | Input                           | Output                                                        | 
 | ------------------------------- | ------------------------------------------------------------  | 
