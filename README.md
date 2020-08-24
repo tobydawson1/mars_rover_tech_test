@@ -118,7 +118,7 @@ $ rspec
 | **Function:**    | rover_location                                 |
 | **Function:**    | deploy                                            |  
 
-| Object:          | Mars_plateau                                    | 
+| Object:          | Mars                                    | 
 | ---------------- | -------------------------------------------------- | 
 | **Properties:**  | grid_size                                                  |
 | **Function:**    | grid                                 |
