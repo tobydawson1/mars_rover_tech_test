@@ -57,7 +57,7 @@ Actions
 ## Testing 
 
 ```
-To run tests
+RSpec is used for testing
 Clone repository onto local machine and cd into it
 
 $ rspec
