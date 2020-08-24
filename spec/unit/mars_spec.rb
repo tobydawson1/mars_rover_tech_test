@@ -7,11 +7,11 @@ describe Mars do
     @command = Command.new("5 5", "1 2 N", "LMLMLMLMM")
   end
 
-  it 'can be initiazed' do
+  it 'can be initialized' do
     expect(@mars).to be_an_instance_of(Mars)
   end
 
-  it 'holds the size of the playeau' do
+  it 'holds the size of the plateau' do
     expect(@mars.max_x).to eq(5)
     expect(@mars.max_y).to eq(5)
   end

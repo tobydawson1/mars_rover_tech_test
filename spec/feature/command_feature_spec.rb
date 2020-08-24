@@ -6,7 +6,7 @@ describe Command do
     @command = Command.new("5 5", "1 2 N", "LMLMLMLMM")
   end  
 
-  it 'can reveive data, convert it, operate rover and return correct final position' do
+  it 'can receive data, convert it, operate rover and return correct final position' do
     @command.mars
     @command.rover_coordinates
     @command.process("LMLMLMLMM")
@@ -23,7 +23,7 @@ describe Command do
     expect(@command.face).to eq("W")
   end
 
-  it 'will move left' do
+  it 'will move right' do
     @command.mars
     @command.rover_coordinates
     @command.process("R")

@@ -25,7 +25,7 @@ describe Command do
     expect(@command.face).to eq("N")
   end
 
-  it 'raises error when out of bands below 0 ' do
+  it 'raises error when out of bounds below 0 ' do
     @command.mars
     @command.rover_coordinates
     expect { @command.process("LMMMMMMM") }.to raise_error("Rover out in space")

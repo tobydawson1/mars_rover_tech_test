@@ -10,7 +10,7 @@ describe 'rover' do
     expect(@rover.rover).to eq(["1", "2", "N"])
   end
 
-  it 'can create starting cordinates and face for rover one' do
+  it 'can create starting coordinates and face for rover one' do
     @rover.deploy
     expect(@rover.x).to eq(1)
     expect(@rover.y).to eq(2)
