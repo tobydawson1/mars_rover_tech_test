@@ -86,7 +86,6 @@ Actions
 | **Function:**    | mission_one                                    |
 | **Function:**    | mission_two                                           |  
 | |                                      |  
-
 | Object:          | Commmand                                        | 
 | ---------------- | -------------------------------------------------- | 
 | **Properties:**  | Grid size, Start, Movement                              |
