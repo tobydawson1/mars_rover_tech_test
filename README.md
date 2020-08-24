@@ -85,7 +85,7 @@ Actions
 | **Properties:**  | Grid size, start_one, movement_one, start_two, movement_two|
 | **Function:**    | mission_one                                    |
 | **Function:**    | mission_two                                           |  
-| |                                      |  
+
 | Object:          | Commmand                                        | 
 | ---------------- | -------------------------------------------------- | 
 | **Properties:**  | Grid size, Start, Movement                              |
@@ -97,13 +97,13 @@ Actions
 | **Function:**    | turn_right                                             |  
 | **Function:**    | face_to                                    |
 | **Function:**    | limit?                                          |  
-| |                                      |  
+
 | Object:          | Rover                                     | 
 | ---------------- | -------------------------------------------------- | 
 | **Properties:**  | Start                                                  |
 | **Function:**    | rover_location                                 |
 | **Function:**    | deploy                                            |  
-| |                                      |  
+
 | Object:          | Mars_plateau                                    | 
 | ---------------- | -------------------------------------------------- | 
 | **Properties:**  | grid_size                                                  |
