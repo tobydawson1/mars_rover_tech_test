@@ -6,7 +6,7 @@
 
 **Technologies: Ruby, RSpec, Rubocop, Coveralls, Travis CI**
 
-[Task](#Task) | [Acceptance Criteria](#criteria) | [Input](#Input) | [Inputs / Outputs](#output)| [User Stories](#stories) |
+[Task](#Task) | [Acceptance Criteria](#criteria) | [Input](#Input) | [How to run](#run) | [Inputs / Outputs](#output)| [User Stories](#stories) |
 
 ## Task
 
@@ -35,6 +35,8 @@ The rest of the input is information pertaining to the rovers that have been dep
 rover's position, and the second line is a series of instructions telling the rover how to explore the plateau.
 The position is made up of two integers and a letter separated by spaces, corresponding to the x and y co-ordinates and the rover's orientation.
 Each rover will be finished sequentially, which means that the second rover won't start to move until the first one has finished moving.
+
+## <a name="run">How to run </a>
 
 ## <a name="output">Input / Output </a>
 | Input                           | Output                                                        | 
