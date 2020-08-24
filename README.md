@@ -48,7 +48,7 @@ $ require 'command'
 $ require 'rover'
 $ require 'mars_plateau'
 
-Initialize nasa with input as arguments ($ @nasa = Nasa.new(grid size, first location, first movement, second location, second movement)
+Initialize nasa with input as arguments ($ @nasa = Nasa.new(grid size, start_one, movement_one, start_two, movement_two)
 
 Actions
   - $ @nasa.mission_one
@@ -56,6 +56,7 @@ Actions
 ```
 
 ## <a name="output">Input / Output </a>
+
 | Input                           | Output                                                        | 
 | ------------------------------- | ------------------------------------------------------------  | 
 | 5 5                             | 1 3 N                                                         |
@@ -76,6 +77,39 @@ Actions
 | 7 7 N                           |                                                               |
 | MRMMLMMRM                      |                                                               |
 | ------------------------------- | ------------------------------------------------------------  | 
+
+## <a name="functions">Functions and Methods </a>
+
+| Object:          | Nasa                                            | 
+| ---------------- | -------------------------------------------------- | 
+| **Properties:**  | Grid size, start_one, movement_one, start_two, movement_two|
+| **Function:**    | mission_one                                    |
+| **Function:**    | mission_two                                           |  
+| |                                      |  
+
+| Object:          | Commmand                                        | 
+| ---------------- | -------------------------------------------------- | 
+| **Properties:**  | Grid size, Start, Movement                              |
+| **Function:**    | mars                                    |
+| **Function:**    | rover_coordinates                                             |  
+| **Function:**    | process                                    |
+| **Function:**    | move_forward                                           |  
+| **Function:**    | turn_left                                    |
+| **Function:**    | turn_right                                             |  
+| **Function:**    | face_to                                    |
+| **Function:**    | limit?                                          |  
+| |                                      |  
+| Object:          | Rover                                     | 
+| ---------------- | -------------------------------------------------- | 
+| **Properties:**  | Start                                                  |
+| **Function:**    | rover_location                                 |
+| **Function:**    | deploy                                            |  
+| |                                      |  
+| Object:          | Mars_plateau                                    | 
+| ---------------- | -------------------------------------------------- | 
+| **Properties:**  | grid_size                                                  |
+| **Function:**    | grid                                 |
+
 
 ## <a name="stories">User Stories</a>
 
