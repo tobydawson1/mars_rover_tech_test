@@ -57,7 +57,7 @@ Actions
 
 ## <a name="irb">IRB Output Example</a>
 
-![example]https://github.com/tobydawson1/mars_rover_tech_test/blob/master/example.png
+![example](https://github.com/tobydawson1/mars_rover_tech_test/blob/master/example.png)
 
 ## <a name="output">Input / Output </a>
 
