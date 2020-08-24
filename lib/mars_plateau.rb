@@ -14,5 +14,4 @@ class Mars
     @max_y = @grid_size[1].to_i
   end
 
-  
 end

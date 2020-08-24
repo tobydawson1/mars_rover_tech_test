@@ -15,6 +15,6 @@ describe 'rover' do
     expect(@rover.x).to eq(1)
     expect(@rover.y).to eq(2)
     expect(@rover.face).to eq("N")
-  end
+  end 
 
 end

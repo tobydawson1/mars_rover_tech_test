@@ -272,7 +272,6 @@
         14,
         null,
         null,
-        null,
         null
       ],
       "/Users/tobydawson/Projects/mars_rover_tech_test/spec/unit/rover_spec.rb": [
@@ -321,6 +320,6 @@
         null
       ]
     },
-    "timestamp": 1598264669
+    "timestamp": 1598264789
   }
 }
