@@ -6,7 +6,7 @@
 
 **Technologies: Ruby, RSpec, Rubocop, Coveralls, Travis CI**
 
-[Task](#Task) | [Acceptance Criteria](#criteria) | [Input](#Input) | [How to run](#run) | [Inputs / Outputs](#output)| [Functions and Methods](#functions) | [User Stories](#stories) |
+[Task](#Task) | [Acceptance Criteria](#criteria) | [Input](#Input) | [How to run](#run) | [IRB Output Example](#irb) | [Inputs / Outputs](#output)| [Functions and Methods](#functions) | [User Stories](#stories) |
 
 ## Task
 
@@ -54,6 +54,10 @@ Actions
   - $ @nasa.mission_one
   - $ @nasa.mission_two
 ```
+
+## <a name="irb">IRB Output Example</a>
+
+![Example]https://github.com/tobydawson1/mars_rover_tech_test/blob/master/example.png
 
 ## <a name="output">Input / Output </a>
 
