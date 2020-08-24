@@ -16,12 +16,12 @@ end
 describe Nasa do 
 
   before :each do
-    @nasa = Nasa.new("10 10", "5 2 W", "LMMLMLMMM", "4 4 S", "MMMLMMLMMMMM")
+    @nasa = Nasa.new("10 10", "5 2 W", "MMLMLMMMLM", "7 7 N", "MRMMLMMRM")
   end
 
   it 'gives another set of correct rover positions' do
-    expect(@nasa.mission_one).to eq("6 3 N")
-    expect(@nasa.mission_two).to eq("6 6 N")
+    expect(@nasa.mission_one).to eq("6 2 N")
+    expect(@nasa.mission_two).to eq("10 10 E")
   end
 
 end
