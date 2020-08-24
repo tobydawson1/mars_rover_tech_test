@@ -94,7 +94,7 @@ $ rspec
 
 | Object:          | Nasa                                            | 
 | ---------------- | -------------------------------------------------- | 
-| **Properties:**  | Grid size, start_one, movement_one, start_two, movement_two|
+| **Properties:**  | grid size, start_one, movement_one, start_two, movement_two|
 | **Function:**    | mission_one                                    |
 | **Function:**    | mission_two                                           |  
 
